@@ -136,8 +136,7 @@ function reset(){
     seconds.innerHTML =Time ;
     inputWord.value = '' ;
     message.innerHTML = '' ;
-    score=0 ;
-    bestScore =0 ;
+    score=0 , bestScore ;
     myScore.innerHTML = score ;
     myBestScore.innerHTML = bestScore ;
 }
