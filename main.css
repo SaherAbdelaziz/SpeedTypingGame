@@ -36,8 +36,10 @@ h1 , h2 , h3 , h4 , h5 , h6 , p {
     ; 
 }
 .levels{
-    display: inline;
-    margin: 100px ;
+    margin: auto;
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 
 .levels button{
