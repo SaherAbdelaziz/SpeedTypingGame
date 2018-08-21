@@ -133,6 +133,7 @@ function buttonHard(){
 function reset(){
     
     displaytime =Time
+    seconds.innerHTML =Time ;
     inputWord.value = '' ;
     message.innerHTML = '' ;
     score=0 ;
